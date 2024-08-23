@@ -125,7 +125,7 @@ void loop(){
             
             // check if the client asked to turn on PC
             if (header.indexOf("GET /on") >= 0) {
-              Serial.println("Client requested to turn on the copmuter");
+              Serial.println("Client requested to turn on the computer");
               wakeMyPC();
             }
             
